@@ -1,12 +1,8 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.css'
-import Appuser from './components/Appuser';
 
-//const msg = <h1>Hello react</h1>
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render( <Appuser/>);
+const msg = <h1>Hello to react</h1>
+ReactDOM.render(msg,document.getElementById('workshop'));
+
 
