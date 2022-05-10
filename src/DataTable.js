@@ -34,7 +34,7 @@ const DataTable = () => {
     const TableAction = () =>{
         return(
             <div>
-                <button className='btn btn-primary'>Details</button>
+                <button type = 'button'className='btn btn-primary'>Details</button>
             </div>
     
         );
